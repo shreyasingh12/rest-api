@@ -17,7 +17,7 @@ app.get('/',(req,res)=>{
 
 
 mongoose.connect(
-    'mongodb+srv://Shreya:ss123@cluster0-6nkeq.mongodb.net/<dbname>?retryWrites=true&w=majority',
+    'mongodb+srv://password@cluster0-6nkeq.mongodb.net/<dbname>?retryWrites=true&w=majority',
     {useNewUrlParser:true,
     useUnifiedTopology: true },
     () => console.log("connected to the database")
